@@ -1,0 +1,29 @@
+Scenario: Clinic Appointment Management System
+A clinic wants to develop a Java application to manage patient appointments. Store the patient name, patient ID, doctor name, appointment type, and consultation fee. Patients should be able to book appointments by providing different combinations of appointment details.
+Validate patient information and consultation fees, compare patient names to verify records, and display patient and doctor names in uppercase. The application should calculate the total consultation charges for multiple appointments and display a summary of the appointments.
+Task: Develop a Java application using constructors, method overloading, and String manipulation. Create appointments using different constructors, implement overloaded methods to display or process appointment details, and generate an appointment summary showing patient details and consultation charges.
+Expected Output:
+========== CLINIC APPOINTMENT SYSTEM ==========
+
+Patient Name       : PRIYA SHARMA
+Patient ID         : P101
+Doctor Name        : DR. KUMAR
+Appointment Type   : GENERAL
+Consultation Fee   : Rs. 500.00
+Appointment Status : Confirmed
+
+Patient Name       : RAHUL VERMA
+Patient ID         : P102
+Doctor Name        : DR. MEENA
+Appointment Type   : SPECIALIST
+Consultation Fee   : Rs. 800.00
+Appointment Status : Confirmed
+
+---------- APPOINTMENT SUMMARY ----------
+Total Appointments : 2
+Total Consultation : Rs. 1300.00
+
+Patient Verification: Names Match
+=============================================
+
+Note: The output is illustrative. Actual output should depend on the appointments processed by the program.
